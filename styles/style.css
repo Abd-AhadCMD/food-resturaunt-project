@@ -104,6 +104,7 @@ margin-bottom: 16px;
     margin-top: 28px;
     display: flex;
     justify-content: space-between;
+    gap: 36px;
 }
 
 .card{
@@ -130,4 +131,18 @@ margin-bottom: 16px;
     padding: 8px 18px 8px 18px;
     border-radius: 8px;
     background: rgba(82, 195, 3, 0.15);
+}
+
+.card p{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.container .butn .btn{
+    justify-content: center;
+    align-items: center;
+    margin-top: 34px;
 }
